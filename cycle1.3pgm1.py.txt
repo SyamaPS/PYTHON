@@ -1,0 +1,7 @@
+def chngstr(str1):
+
+    return str1[-1:]+str1[1:-1]+str1[:1]
+
+print(chngstr('syama'))
+
+print(chngstr('56789'))
