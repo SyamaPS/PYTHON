@@ -1,0 +1,14 @@
+list=[]
+
+n=int(input("Enter the number of elements:"))
+
+for i in range(0,n):
+ 
+   list.append(int(input("Enter the number:")))
+
+print("printing the squares of numbers ")
+
+for i in list:
+  
+  print(i*i,end="")
+    
