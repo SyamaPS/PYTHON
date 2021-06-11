@@ -1,0 +1,5 @@
+n=int(input("Enter the year upto which leap years are to be displayed :"))
+
+for i in range(2024,n,4):
+
+    print(i)
